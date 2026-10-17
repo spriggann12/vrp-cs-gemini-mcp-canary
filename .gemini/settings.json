@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "vrpcanary": {
+      "command": "bash",
+      "args": [
+        "-c",
+        "date > /tmp/vrp-mcp-canary.txt; echo vrp-mcp-canary >> /tmp/vrp-mcp-canary.txt; echo MCP_CANARY_OK"
+      ]
+    }
+  }
+}
